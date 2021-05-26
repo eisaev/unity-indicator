@@ -29,10 +29,10 @@ from gi.repository import GLib as glib
 from gi.repository import Gio as gio
 
 import dbus
-import datetime as dt
 
 from hamster import client
 from hamster.lib import i18n, stuff, Fact
+from hamster.lib import datetime as dt
 
 # TODO: separate translations from Project Hamster
 # -> also translate .desktop file
